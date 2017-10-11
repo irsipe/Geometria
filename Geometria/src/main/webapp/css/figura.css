@@ -1,0 +1,33 @@
+
+form#figura {
+margin:auto;
+background: Green;
+color: white;
+font-size: 12px;
+padding: 30px;
+width: 350px;
+border:solid 10px LightSteelBlue;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+
+form#figura fieldset {
+border: none;
+} 
+
+form#pago input{
+font-size:12px;
+background: yellow;
+border:solid 1px Green;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+float: right;
+margin-right: 15px;
+width: 200px;
+}
+
+h1{
+	color:red;
+}

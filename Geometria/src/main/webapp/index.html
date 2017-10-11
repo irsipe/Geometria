@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link  rel='stylesheet' type='text/css' href='"+request.getContextPath()+"/css/figura.css'>
+    </head>
+    <body>
+     
+		<form id="figura" action="/Geometria/servlet/calculos" method="post">
+		 <br><br>
+		 <label for="figura"> Figura    : </label>
+		  <select name="figura">    
+      		 <option value="Cilindro" selected="selected">Cilindro</option>
+      		 <option value="Esfera">Esfera</option>
+      		 <option value="Cono">Cono</option>
+      		 <option value="Cubo">Cubo</option>
+   		  </select>
+   		  
+   		  <br><br>
+		  <label for="altura    ">Altura     :</label> 
+		  <input type="number" name="altura" value="0" step='any'>
+		  <br>
+		  <label for="radio     ">Radio      :</label> 	 
+		  <input type="number" name="radio" value="0" step='any'>
+		  <br>
+		  <label for="arista    ">Arista     :</label>
+		  <input type="number" name="arista" value="0" step='any'>
+		  <br>
+		  <label for="generatriz">Generatriz :</label> 
+		  <input type="number" name="generatriz" value="0" step='any'>
+		  <br><br>
+		  <input type="submit" value="Calcular Area y Volumen"> 
+		  <br><br>
+		  <div>
+			  <img src='img/figCilindro.png' alt=" imagen ">
+			  <img src='img/figCono.png' alt=" imagen ">
+			  <img src='img/figCubo.png' alt=" imagen ">
+			  <img src='img/figEsfera.png' alt=" imagen ">
+		  </div>
+	</form> 
+</body>
+   
+</html>
